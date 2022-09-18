@@ -1,3 +1,4 @@
+# veamos si funciona github
 
 # opciones para abrir bases de datos 
 read.csv2("nombre de la base de datos", header = TRUE)
