@@ -129,3 +129,17 @@ p3+stat_summary(data = datos %>%
                   summarise_all(mean), 
                 geom = "point", size = 5, 
                 color="black", shape=8)
+#---------------------------------------------------------------------
+# Diagramas
+#diagrama de elipse
+library(corrplot)
+library(RColorBrewer)
+corrplot.mixed(corr=cor(datos[, -c(1,2,4,5)]), upper.col = COL1('YlGn', 10),
+               upper= "ellipse",
+               lower= "number",
+               lower.col ="black",
+               tl.col= "black",
+               tl.pos= "lt",
+               tl.cex =0.7,
+               number.cex=0.8)
+
