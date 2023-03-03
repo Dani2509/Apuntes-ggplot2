@@ -1,0 +1,11 @@
+---
+title: "Practica"
+format: html
+editor: visual
+---
+
+## Raincloud plot con ggplot2
+
+Los diagramas de nubes de lluvia se presentaron en 2019 como un enfoque para superar los problemas de ocultar la verdadera distribución de datos al trazar barras con barras de error (también conocidas como ***diagramas de dinamita*** ) o diagramas de caja. En cambio, los diagramas de nubes de lluvia combinan varios tipos de gráficos para visualizar los datos sin procesar, la distribución de los datos como densidad y las estadísticas de resumen clave al mismo tiempo.
+
+Para este ejercicio vamos a utilizar
